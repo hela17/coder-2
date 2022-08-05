@@ -99,5 +99,14 @@ h1,h2,h3 {
     background-size: cover;
     height: 450px;
     padding: 20px;
+    /* position: relative; */
+}
+
+/* .hero__contenido {
+    position: absolute;
+    background-color: red;
+    weight: 2rem;
+    height:2rem; */
+
 }
 
