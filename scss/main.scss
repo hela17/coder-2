@@ -1,4 +1,10 @@
-.leo {
-    color:navy;
-    text-decoration: none;
-}
+@import "./parciales/base";
+@import "./parciales/header";
+@import "./parciales/footer";
+@import "./parciales/inicio";
+@import "./parciales/galeria";
+@import "./parciales/nosotros";
+@import "./parciales/extras";
+@import "./parciales/media-querys";
+
+
