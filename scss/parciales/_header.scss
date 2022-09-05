@@ -1,21 +1,16 @@
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+    font-family: 'Staatliches' , 'sans-serif';
+    font-weight: 400;
+}
+
 .titulo span {
     font-size: 2rem;
 }
-
-.contenedor {
-    max-width: 120rem;
-    /* margin: 0 auto; (Se podria poner asi tambien)*/
-    margin-top: 0;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-left: auto;
-}
-
 .nav-background {
-    display: flex;
     background-color: var(--secundario);
 }
-
 .navegacion-principal {
     display: flex;
     flex-direction: column;
@@ -28,9 +23,7 @@
     font-size: 2rem;
     font-weight: 700;
     padding: 1rem;
-
 }
-
 .navegacion-principal a:hover {
     background-color: var(--primario);
     color: var(--oscuro);

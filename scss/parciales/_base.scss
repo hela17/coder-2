@@ -5,11 +5,10 @@
     --secundario: #0097A7;
     --gris: #757575;
 }
-
+// --HACK PARA QUE 1rem = 10px */
 html {
     font-size: 62.5%;
 }
-
 body {
     font-size: 1rem;
     font-family: 'Krub', sans-serif;

@@ -1,0 +1,32 @@
+.formulario-producto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.formulario-producto__campo {
+    border: 1rem solid black;
+    background-color: transparent;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Staatliches', 'Helvetica', 'sans-serif';
+    padding: 1rem;
+    appearance: none;
+
+}
+
+.formulario-producto__boton {
+    background-color: #f4e76f;
+    border: none;
+    font-size: 2rem;
+    font-family: 'Staatliches';
+    padding: 2rem;
+    transition: background-color .3s ease;
+    grid-column: 1 / 3;
+}
+
+.formulario-producto__boton:hover {
+    cursor: pointer;
+    background-color: yellow;
+    
+}
