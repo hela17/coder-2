@@ -9,13 +9,6 @@ p {
     grid-template-rows: repeat(2, auto);
     column-gap: 2rem;
 }
-@media (min-width: 768px) {
-    .nosotros {
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 2rem;
-    }
-}
-//media pero fijarme si ya lo puse en base//
 
 .nosotros__imagen {
     grid-row: 1 / 2;
